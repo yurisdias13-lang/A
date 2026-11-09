@@ -29,7 +29,7 @@ Cada aparição sorteia modelo, posição, escala inteira, tempo de entrada (0,1
 
 **MP4:** baixe `em-estantes.mp4`, adicione como Fonte de mídia e ative Repetir. O vídeo tem 36 segundos, Full HD, sem áudio; ao repetir, a sequência gravada recomeça.
 
-O título é “A LIVE COMEÇA EM ESTANTES”. A mensagem “O tempo está organizando os livros” foi removida.
+O título é “A LIVE COMEÇA EM ESTANTES”. As mensagens secundárias foram removidas.
 
 
 ## Relógio original da tela de título
