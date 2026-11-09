@@ -30,3 +30,12 @@ Cada aparição sorteia modelo, posição, escala inteira, tempo de entrada (0,1
 **MP4:** baixe `em-estantes.mp4`, adicione como Fonte de mídia e ative Repetir. O vídeo tem 36 segundos, Full HD, sem áudio; ao repetir, a sequência gravada recomeça.
 
 O título é “A LIVE COMEÇA EM ESTANTES”. A mensagem “O tempo está organizando os livros” foi removida.
+
+
+## Relógio original da tela de título
+
+O relógio genérico foi substituído pelo “C” em forma de relógio da tela de título de Chrono Trigger para SNES. O corpo e os dois ponteiros foram recortados da folha [Title Screen](https://www.spriters-resource.com/snes/chronotrigger/asset/56950/), extraída e disponibilizada por **daemoth**; a arte original é da **Square**.
+
+Coordenadas na folha original (416 × 240): corpo em (163,14), 48 × 88; ponteiro maior em (142,103), 33 × 7; ponteiro menor em (181,103), 7 × 29. O fundo magenta da folha foi tornado transparente. O arquivo `relogio-original.png` reúne essas três partes.
+
+O corpo permanece fixo. Os ponteiros originais são animados por rotação: uma volta a cada **0,75 segundo** para o maior e **3,6 segundos** para o menor. Essa velocidade é uma adaptação para esta abertura, não uma reprodução do tempo da animação original do jogo. O espaço do relógio fica livre das aparições das estantes.
