@@ -57,7 +57,7 @@ function draw(t){
  text('A LIVE COMEÇA',204,13,'#85c4bb');text('EM',246,25,'#dfc98e');
  g.save();g.shadowColor='#090711';g.shadowOffsetX=3;g.shadowOffsetY=4;text('ESTANTES',302,58,'#f3dfac');g.restore();
  g.fillStyle='#765c3f';g.fillRect(362,322,236,1);g.fillStyle='#d0ae70';g.fillRect(477,320,6,5);
- text('ENTRE UMA ERA E OUTRA',501,10,'#a18c63');g.globalAlpha=1;
+ g.globalAlpha=1;
 }
 window.renderAt=t=>{while(sim<t){sim=Math.min(t,sim+1/24);update(sim)}draw(t)};
 window.sceneState=()=>shelves.map(({i,model,active,start,fadeIn,hold,fadeOut,next,x,y,w,h})=>({i,model,active,start,fadeIn,hold,fadeOut,next,x,y,w,h}));
